@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "crudamanda";
+$database = "pdoamanda";
 
 try {
 
