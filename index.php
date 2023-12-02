@@ -50,7 +50,7 @@ include('navbar.php')
                                         {
                                             ?>
                                             <tr>
-                                                <td><?= $row->stud_id; ?></td>
+                                                <td><?= $row->Id; ?></td>
                                                 <td><?= $row->fullname; ?></td>
                                                 <td><?= $row->email; ?></td>
                                                 <td><?= $row->phone; ?></td>
