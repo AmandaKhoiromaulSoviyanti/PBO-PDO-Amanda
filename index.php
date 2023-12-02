@@ -56,11 +56,11 @@ include('navbar.php')
                                                 <td><?= $row->phone; ?></td>
                                                 <td><?= $row->course; ?></td>
                                                 <td>
-                                                    <a href="student-edit.php?id=<?= $row->stud_id; ?>" class="btn btn-success">Edit</a>
+                                                    <a href="student-edit.php?id=<?= $row->Id; ?>" class="btn btn-success">Edit</a>
                                                 </td>
                                                 <td>
                                                     <form action="student-code.php" method="POST">
-                                                        <button type="submit" name="delete_student" value="<?=$row->stud_id;?>" class="btn btn-danger">Delete</button>
+                                                        <button type="submit" name="delete_student" value="<?=$row->Id;?>" class="btn btn-danger">Delete</button>
                                                     </form>
                                                 </td>
                                             </tr>
